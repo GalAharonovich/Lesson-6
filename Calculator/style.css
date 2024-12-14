@@ -1,0 +1,42 @@
+.number1 { grid-area: number1; }
+.number2 { grid-area: number2; }
+.number3 { grid-area: number3; }
+.number4 { grid-area: number4; }
+.number5 { grid-area: number5; }
+.number6 { grid-area: number6; }
+.number7 { grid-area: number7; }
+.number8 { grid-area: number8; }
+.number9 { grid-area: number9; }
+.number0 { grid-area: number0; }
+.screen { grid-area: screen; }
+.c { grid-area: c; }
+.division { grid-area: division; }
+.plus { grid-area: plus; }
+.minus { grid-area: minus; }
+.multiplication { grid-area: multiplication; }
+.equal { grid-area: equal; }
+
+
+.grid-calculator {
+  display: grid;
+  grid-template-areas:
+    'screen screen screen screen'
+    'number1 number2 number3 plus'
+    'number4 number5 number6 minus'
+    'number7 number8 number9 multiplication'
+    'c number0 equal division';
+  gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+  width: 150px;
+}
+
+.screen{
+    background: white;
+    width: 142px;
+
+}
+
+.display{
+  width: 140px;
+}

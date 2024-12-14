@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="grid-calculator">
+        <div class="screen"><input type="text" class="display" id="display"></div>
+        <div class="number1"> <button value="1" onclick="appearOnDisplay('1')">1</button></div>
+        <div class="number2"> <button value="2" onclick="appearOnDisplay('2')">2</button></div>
+        <div class="number3"> <button value="3" onclick="appearOnDisplay('3')">3</button></div>
+        <div class="plus"> <button value="+" onclick="appearOnDisplay('+')">+</button></div>
+        <div class="number4"><button value="4" onclick="appearOnDisplay('4')">4</button></div>
+        <div class="number5"><button value="5" onclick="appearOnDisplay('5')">5</button></div>
+        <div class="number6"><button value="6" onclick="appearOnDisplay('6')">6</button></div>
+        <div class="minus"><button value="-" onclick="appearOnDisplay('-')">-</button></div>
+        <div class="number7"><button value="7" onclick="appearOnDisplay('7')">7</button></div>
+        <div class="number8"><button value="8" onclick="appearOnDisplay('8')">8</button></div>
+        <div class="number9"><button value="9" onclick="appearOnDisplay('9')">9</button></div>
+        <div class="multiplication"><button value="*" onclick="appearOnDisplay('*')">*</button></div>
+        <div class="c"><button value="c" onclick="clearDisplay()">c</button></div>
+        <div class="number0"><button value="0" onclick="appearOnDisplay('0')">0</button></div>
+        <div class="equal"><button value="=" onclick="result()">=</button></div>
+        <div class="division"><button value="/" onclick="appearOnDisplay('/')">/</button></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
